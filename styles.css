@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.contact_button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 50px;
+}
+
+.portfolio h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.portfolio_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio_item {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.portfolio_item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.portfolio_item p {
+    margin-top: 10px;
+}
+
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.about_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile_picture {
+    width: 200px;
+    height: 200px;
+    border: 50%;
+    margin-bottom: 20px;
+}
+
+.about_content p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.blog {
+    text-align: center;
+    padding: 50px;
+}
+
+.blog h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.blog_post {
+    margin-bottom: 40px;
+}
+
+.blog_post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post_meta {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.contact form label,
+.contact form textarea {
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social_icons {
+    margin-top: 20px;
+}
+
+.social_icons a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.icon {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    transform: scale(1.2);
+}
